@@ -1,6 +1,8 @@
 using Kozyk.Blazor.Services;
-using Kozyk.Blazor.Components.ProductComponents;
+
 using Srv.Domain.Entities;
+
+
 using Kozyk.Blazor.Components;
 
 var builder = WebApplication.CreateBuilder(args);

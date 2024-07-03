@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.UI", "Kozyk.UI\Kozyk.UI.csproj", "{1FC6921D-BDE7-4C6D-995D-07859449A10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozyk.UI", "Kozyk.UI\Kozyk.UI.csproj", "{1FC6921D-BDE7-4C6D-995D-07859449A10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srv.Domain", "Srv.Domain\Srv.Domain.csproj", "{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srv.Domain", "Srv.Domain\Srv.Domain.csproj", "{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.API", "Kozyk.API\Kozyk.API.csproj", "{1F722985-6832-4FA7-8B25-AC64D2476DAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kozyk.API", "Kozyk.API\Kozyk.API.csproj", "{1F722985-6832-4FA7-8B25-AC64D2476DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.Blazor", "Kozyk.Domain\Kozyk.Blazor.csproj", "{DCDA35CF-AD73-467E-926A-8780681E2608}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.Blazor", "Kozyk.Blazor\Kozyk.Blazor.csproj", "{A6DFBF67-6B42-4752-B1F3-7CA231C2242D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DCDA35CF-AD73-467E-926A-8780681E2608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCDA35CF-AD73-467E-926A-8780681E2608}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCDA35CF-AD73-467E-926A-8780681E2608}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCDA35CF-AD73-467E-926A-8780681E2608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DFBF67-6B42-4752-B1F3-7CA231C2242D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DFBF67-6B42-4752-B1F3-7CA231C2242D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DFBF67-6B42-4752-B1F3-7CA231C2242D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DFBF67-6B42-4752-B1F3-7CA231C2242D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
