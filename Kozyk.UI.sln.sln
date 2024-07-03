@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.UI", "Kozyk.UI\Kozyk.UI.csproj", "{1FC6921D-BDE7-4C6D-995D-07859449A10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srv.Domain", "Srv.Domain\Srv.Domain.csproj", "{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.API", "Kozyk.API\Kozyk.API.csproj", "{1F722985-6832-4FA7-8B25-AC64D2476DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kozyk.Blazor", "Kozyk.Domain\Kozyk.Blazor.csproj", "{DCDA35CF-AD73-467E-926A-8780681E2608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC6921D-BDE7-4C6D-995D-07859449A10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC6921D-BDE7-4C6D-995D-07859449A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC6921D-BDE7-4C6D-995D-07859449A10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC6921D-BDE7-4C6D-995D-07859449A10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE1278B-C8A7-4E18-9E2D-253D09C58E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F722985-6832-4FA7-8B25-AC64D2476DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDA35CF-AD73-467E-926A-8780681E2608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDA35CF-AD73-467E-926A-8780681E2608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDA35CF-AD73-467E-926A-8780681E2608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDA35CF-AD73-467E-926A-8780681E2608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CF9C367-2BBE-4817-BF10-A32173E4DCA7}
+	EndGlobalSection
+EndGlobal

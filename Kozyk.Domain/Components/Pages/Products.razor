@@ -1,0 +1,31 @@
+﻿@page "/products"
+@using Kozyk.Blazor.Components.ProductComponents
+@using Srv.Domain.Entities
+@using Srv.Domain.Models
+@using Kozyk.Blazor.Components
+@using Kozyk.Blazor.Services
+
+
+@rendermode InteractiveServer
+
+<CascadingValue Value="ProductService">
+<SerList ServingSelected="ShowDetails" />
+<Pager/>
+</CascadingValue>
+
+<SerDetails serving="SelectedServing" />
+
+@code {
+[Inject] IProductService<Serving> ProductService { get; set; }
+
+[Parameter]
+	public Serving SelectedServing { get; set; }
+	protected override async Task OnInitializedAsync()
+	{
+	await ProductService.GetProducts();
+	}
+	void ShowDetails(int id)
+	{
+	SelectedServing = ProductService.Products.First(d => d.Id == id);
+	}
+}

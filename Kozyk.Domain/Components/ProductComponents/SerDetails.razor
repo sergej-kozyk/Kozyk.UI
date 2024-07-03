@@ -1,0 +1,23 @@
+﻿@using Srv.Domain.Entities
+@using Kozyk.Blazor.Components
+<h3>Детали</h3>
+
+
+
+	@if(serving!=null)
+	{
+	<div class="card mt-5" style="width: 18rem;">
+	<img src="@serving.Image" class="card-img-top" alt="...">
+	<div class="card-body">
+	<h5 class="card-title">@serving.Name</h5>
+	<p class="card-text">@serving.Description</p>
+
+	</div>
+	</div>
+	}
+	@code {
+	[Parameter]
+	public Serving serving { get; set; }
+	[Parameter]
+	public EventCallback<Serving> ServingChanged { get; set; }
+	}
